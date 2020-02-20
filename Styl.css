@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-head{
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(myimage.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+
+}
+
+.navi ul{
+    margin: 0;
+}
+
+.navi li{
+    display: inline;
+}
+
+.navi a{
+    display: inline-block;
+    padding: 2em;
+    color: beige;
+    text-decoration: none;
+}
+
+.navi:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-navi{
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    font-family: fantasy;
+}
+
+.main-navi{
+    padding: 0.5%;
+}
+
+.main-section{
+    background-color: grey;
+}
+
+.head{
+    font-style: italic;
+}

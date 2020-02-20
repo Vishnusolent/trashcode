@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: #3498db;
+}
+.main-head{
+    background-image: url(/Nothing/pattern1.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.nav li a{
+        text-decoration: none;
+}
+.nav{
+    list-style: none;
+}
+.nav li{
+    display: inline-block;
+    background-color:#E87E1B;
+    padding: 10px 25px;
+}
+.nav li a{
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+.nav li a:hover{
+    color:white;
+}
+.main-nav nav ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+.main-nav nav li :hover  > ul{
+    display: block;
+}
+
+.nav-container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.nav-container a{
+    display: block;
+    text-decoration: none;
+    background: #fff;
+    color: #e74c3c;
+    text-transform: uppercase;
+    padding: 15px 0 15px 10px;
+    margin: 5px 0;
+    width: 150px;
+    letter-spacing: 1.5px;
+    box-shadow: 2px 2px 16px 0 rgba(0, 0, 0, 0.75);
+    position: relative;
+    margin-left: -90px;
+    transition: 0.5s ease;
+}
+.nav-container a span{
+    float: right;
+    width: 70px;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    background: #3498db;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.nav-container a span i{
+    font-size: 20px;
+}
+.nav-container a:hover{
+    margin-left: 0;
+}
