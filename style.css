@@ -1,0 +1,96 @@
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    html,body{
+    margin: 0;
+    padding: 0;
+    }
+
+
+    .head{
+        color: red;
+    }
+    .main-section{
+        background-color: #eee;
+        margin: 20px;
+        padding: 10px;
+    }
+    a{
+        color: red;
+        text-decoration: underline;
+    }
+    p{
+        padding-bottom: 5em;
+    }
+    strong{
+
+        font-size: 700;
+    }
+
+    form{
+        padding: 1em;
+        border-radius: 2%;
+        background-color: #b93434;
+        display: inline-block;
+        height: 20em;
+        width: 50em;
+    }
+    label{
+        display: inline-block;
+    }
+    .input{
+        display: inline-block;
+        padding-bottom: 1em;
+    }
+    .detail-input{
+
+    }
+    .input-span{
+        display: inline-block;
+        padding-bottom: 1em;
+    }
+    .submitbtn{
+        text-align: center;
+    }
+
+    .main-head{
+        font-style: initial;
+        font-weight: bold;
+        background-image: url("image.jpg");
+    }
+
+    .main-heading{
+        color: #eee;
+        text-align: center;
+        font-size: 5em;
+    }
+
+    .nav{
+        display: inline-block;
+        
+    }
+
+    .nav li{
+        display: inline-block;
+        padding: 1em;
+
+    }
+
+    .nav li :hover{
+        color: #717672 ;
+    }
+
+    .main-footer{
+        background-color: grey;
+        padding: 4em;
+    }
+    .foottext{
+        color: white;
+        text-align: left;
+    }
+
